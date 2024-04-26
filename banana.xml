@@ -93,7 +93,6 @@
   <!-- Hardware -->
   <project path="hardware/banana/interfaces" name="android_hardware_banana_interfaces" remote="banana" />
   <project path="hardware/interfaces" name="android_hardware_interfaces" remote="banana" />
-  <project path="hardware/samsung" name="android_hardware_samsung" remote="banana" />
   <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="banana" />
 
   <project path="hardware/qcom-caf/sm8350/display" name="android_hardware_qcom_display" remote="banana" revision="13-caf-sm8350" />
