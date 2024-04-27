@@ -3,7 +3,11 @@
 
   <remote name="banana"
           fetch="https://github.com/bananadroid"
-          revision="13" />
+          revision="13-qpr3" />
+
+  <remote name="iamrh1819"
+          fetch="https://github.com/iamrh1819"
+          revision="13-qpr3" />
 
   <remote name="github"
           fetch="https://github.com" />
@@ -29,7 +33,7 @@
           review="https://review.arrowos.net/"
           revision="arrow-13.1" />
 
-  <project path="manifest" name="android_manifest" remote="banana" />
+  <project path="manifest" name="android_manifest" remote="iamrh1819" />
   <project path="art" name="android_art" remote="banana" />
   <project path="bionic" name="android_bionic" remote="banana" />
   <project path="bootable/recovery" name="android_bootable_recovery" remote="banana" />
