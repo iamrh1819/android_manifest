@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <remote name="banana"
+          fetch="https://github.com/bananadroid"
+          revision="14" />
+  
   <remote name="iamrh1819"
           fetch="https://github.com/iamrh1819"
           revision="14" />
