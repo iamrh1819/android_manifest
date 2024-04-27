@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <remote name="banana"
-          fetch="https://github.com/bananadroid"
+  <remote name="iamrh1819"
+          fetch="https://github.com/iamrh1819"
           revision="13" />
 
   <remote name="github"
@@ -29,7 +29,7 @@
           review="https://review.arrowos.net/"
           revision="arrow-13.1" />
 
-  <project path="manifest" name="android_manifest" remote="banana" />
+  <project path="manifest" name="android_manifest" remote="iamrh1819" />
   <project path="art" name="android_art" remote="banana" />
   <project path="bionic" name="android_bionic" remote="banana" />
   <project path="bootable/recovery" name="android_bootable_recovery" remote="banana" />
@@ -93,7 +93,6 @@
   <!-- Hardware -->
   <project path="hardware/banana/interfaces" name="android_hardware_banana_interfaces" remote="banana" />
   <project path="hardware/interfaces" name="android_hardware_interfaces" remote="banana" />
-  <project path="hardware/samsung" name="android_hardware_samsung" remote="banana" />
   <project path="hardware/xiaomi" name="android_hardware_xiaomi" remote="banana" />
 
   <project path="hardware/qcom-caf/sm8350/display" name="android_hardware_qcom_display" remote="banana" revision="13-caf-sm8350" />
