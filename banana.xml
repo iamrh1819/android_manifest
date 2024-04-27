@@ -5,6 +5,10 @@
           fetch="https://github.com/iamrh1819"
           revision="13" />
 
+  <remote name="banana"
+          fetch="https://github.com/bananadroid"
+          revision="13" />
+
   <remote name="github"
           fetch="https://github.com" />
 
